@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Blog | GN Solution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="brand"><i class="fa-solid fa-code"></i> GN Solution</a>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1 class="section-title">Product & Tech Blog</h1>
+        <p class="section-subtitle">Deep dives into software architecture, executable packaging, and AI tooling.</p>
+
+        <div class="grid">
+            <article class="card">
+                <img src="https://picsum.photos/seed/code/600/350" alt="Blog cover" class="card-img">
+                <div>
+                    <span class="badge">Software Architecture</span>
+                    <h2 class="card-title">Optimizing Async Python Apps for Production</h2>
+                    <p class="card-desc">A breakdown of resolving thread contention and event-loop blocking in desktop utilities.</p>
+                </div>
+                <a href="#" class="btn" style="background: transparent; border: 1px solid var(--border);">Read Article →</a>
+            </article>
+
+            <article class="card">
+                <img src="https://picsum.photos/seed/security/600/350" alt="Blog cover" class="card-img">
+                <div>
+                    <span class="badge">Security & Web</span>
+                    <h2 class="card-title">Securing Standalone Applications with HSTS & CORS</h2>
+                    <p class="card-desc">How to structure HTTP headers and origin checks to defend modern APIs against cross-site threats.</p>
+                </div>
+                <a href="#" class="btn" style="background: transparent; border: 1px solid var(--border);">Read Article →</a>
+            </article>
+        </div>
+    </main>
+
+</body>
+</html>

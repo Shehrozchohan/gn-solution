@@ -1,0 +1,51 @@
+package com.gnsolution.model;
+
+import java.time.LocalDateTime;
+
+public class Developer {
+    private Long id;
+    private String name;
+    private String role;
+    private String bio;
+    private String githubUrl;
+    private String linkedinUrl;
+    private String avatarUrl;
+    private LocalDateTime createdAt;
+
+    public Developer() {}
+
+    public Developer(Long id, String name, String role, String bio, String githubUrl, String linkedinUrl, String avatarUrl) {
+        this.id = id;
+        this.name = name;
+        this.role = role;
+        this.bio = bio;
+        this.githubUrl = githubUrl;
+        this.linkedinUrl = linkedinUrl;
+        this.avatarUrl = avatarUrl;
+        this.createdAt = LocalDateTime.now();
+    }
+
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getRole() { return role; }
+    public void setRole(String role) { this.role = role; }
+
+    public String getBio() { return bio; }
+    public void setBio(String bio) { this.bio = bio; }
+
+    public String getGithubUrl() { return githubUrl; }
+    public void setGithubUrl(String githubUrl) { this.githubUrl = githubUrl; }
+
+    public String getLinkedinUrl() { return linkedinUrl; }
+    public void setLinkedinUrl(String linkedinUrl) { this.linkedinUrl = linkedinUrl; }
+
+    public String getAvatarUrl() { return avatarUrl; }
+    public void setAvatarUrl(String avatarUrl) { this.avatarUrl = avatarUrl; }
+
+    public LocalDateTime getCreatedAt() { return createdAt; }
+    public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+}

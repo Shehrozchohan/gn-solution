@@ -1,0 +1,20 @@
+# Byte-compiled and compiled class files
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+# Executables & Binaries
+*.exe
+*.dll
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.DS_Store
+
+# Logs
+*.log
